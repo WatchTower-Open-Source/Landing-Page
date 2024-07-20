@@ -7,6 +7,7 @@
     "start": "concurrently \"npm run client\" \"npm run server\"",
     "predeploy": "npm run build",
     "deploy": "gh pages -d build",
+    "build": "react-scripts build",
     "client": "npm start --prefix client",
     "server": "npm start --prefix server"
   },
