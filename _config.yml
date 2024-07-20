@@ -1,6 +1,6 @@
 title: WatchTower
 description: >- # this means to ignore newlines until "baseurl:"
-  DyanmoDb visualization tool
+  DynamoDb visualization tool
 baseurl: '' # the subpath of your site, e.g. /blog
 url: 'http://watch-tower.co' # the base hostname & protocol for your site
 
@@ -20,3 +20,4 @@ exclude:
 # Ensure GitHub metadata plugin is configured
 github:
   repository: WatchTower-Open-Source/WatchTower-Landing-Page # Replace with your repository name
+
