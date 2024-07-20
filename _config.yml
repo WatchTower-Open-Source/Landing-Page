@@ -1,4 +1,4 @@
 # _config.yml
 github:
-  repository: WatchTower-Open-Source/WatchTower-Landing-Page  # Replace with your repository name
+  repository: WatchTower-Open-Source/WatchTower-Landing-Page # Replace with your repository name
   token: ${{ secrets.GITHUB_TOKEN }}
