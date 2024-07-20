@@ -1,0 +1,16 @@
+{
+  "name": "dynamodb",
+  "version": "1.0.0",
+  "description": "DynamoDB Observability Tool",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"npm run client\" \"npm run server\"",
+    "client": "npm start --prefix client",
+    "server": "npm start --prefix server"
+  },
+  "author": "Erik Gao, James Coen, Lauren Felty, Mike Bui, Piero Espejo",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
