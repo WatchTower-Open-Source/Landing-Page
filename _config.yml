@@ -1,23 +1,2 @@
-title: WatchTower
-description: >- # this means to ignore newlines until "baseurl:"
-  DynamoDb visualization tool
-baseurl: '' # the subpath of your site, e.g. /blog
-url: 'http://watch-tower.co' # the base hostname & protocol for your site
-
-markdown: kramdown
-theme: minima
-
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
-
-exclude:
-  - node_modules
-  - vendor/bundle
-  - Gemfile
-  - Gemfile.lock
-
-# Ensure GitHub metadata plugin is configured
-github:
-  repository: WatchTower-Open-Source/WatchTower-Landing-Page # Replace with your repository name
-
+theme: jekyll-theme-minimal
+title: WatchTower landing page
