@@ -12,7 +12,6 @@ import AnalyticsIcon from '@mui/icons-material/Analytics';
 import ChevronRightRoundedIcon from '@mui/icons-material/ChevronRightRounded';
 import AutoGraphIcon from '@mui/icons-material/AutoGraph';
 import ViewQuiltRoundedIcon from '@mui/icons-material/ViewQuiltRounded';
-import logo from '../assets/logo.png';
 import dynamoDB from '../assets/aws-dynamod.png';
 import bedrockLogo from '../assets/bedrock.png';
 import charts from '../assets/chartsJS.png';
