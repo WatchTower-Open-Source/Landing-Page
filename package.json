@@ -6,8 +6,8 @@
   "scripts": {
     "start": "concurrently \"npm run client\" \"npm run server\"",
     "predeploy": "npm run build",
-    "deploy": "gh pages -d build",
-    "build": "react-scripts build",
+    "deploy": "gh-pages -d build",
+    "build": "react-app-rewired build",
     "client": "npm start --prefix client",
     "server": "npm start --prefix server"
   },
@@ -17,6 +17,8 @@
     "concurrently": "^8.2.2"
   },
   "devDependencies": {
-    "gh-pages": "^6.1.1"
+    "gh-pages": "^6.1.1",
+    "react-app-rewired": "^2.1.8"
   }
 }
+
