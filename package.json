@@ -5,6 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "concurrently \"npm run client\" \"npm run server\"",
+    "predeploy": "npm run build",
+    "deploy": "gh pages -d build",
     "client": "npm start --prefix client",
     "server": "npm start --prefix server"
   },
@@ -12,5 +14,8 @@
   "license": "ISC",
   "dependencies": {
     "concurrently": "^8.2.2"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
   }
 }
