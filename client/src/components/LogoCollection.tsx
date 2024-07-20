@@ -3,10 +3,10 @@ import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 import Grid from '@mui/material/Grid';
 import { useTheme } from '@mui/system';
-import logo from '../../assets/logo.png';
-import bedrockLogo from '../../assets/bedrock.png';
-import gitHub from '../../assets/gitHublogo.png';
-import awsLogo from '../../assets/awsLogo.png';
+import logo from '../assets/logo.png';
+import bedrockLogo from '../assets/bedrock.png';
+import gitHub from '../assets/gitHublogo.png';
+import awsLogo from '../assets/awsLogo.png';
 
 const whiteLogos = [logo, bedrockLogo, gitHub, awsLogo];
 

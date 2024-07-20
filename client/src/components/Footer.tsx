@@ -10,7 +10,7 @@ import Typography from '@mui/material/Typography';
 import FacebookIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import TwitterIcon from '@mui/icons-material/X';
-import logo from '../../assets/logo.png';
+import logo from '../assets/logo.png';
 
 const logoStyle = {
   width: '90px',

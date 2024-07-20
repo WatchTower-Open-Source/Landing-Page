@@ -11,7 +11,7 @@ import MenuItem from '@mui/material/MenuItem';
 import Drawer from '@mui/material/Drawer';
 import MenuIcon from '@mui/icons-material/Menu';
 import ToggleColorMode from './ToggleColorMode';
-import logo from '../../assets/logo.png';
+import logo from '../assets/logo.png';
 
 const logoStyle: React.CSSProperties = {
   width: '50px',

@@ -3,10 +3,10 @@ import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 import Grid from '@mui/material/Grid';
 import { useTheme } from '@mui/system';
-import Lauren from '../../assets/Lauren.png';
-import Toast from '../../assets/Toast.png';
-import Miso from '../../assets/Miso.png';
-import Pug from '../../assets/Pug.png';
+import Lauren from '../assets/Lauren.png';
+import Toast from '../assets/Toast.png';
+import Miso from '../assets/Miso.png';
+import Pug from '../assets/Pug.png';
 
 const whiteLogos = [Lauren, Toast, Miso, Pug];
 
