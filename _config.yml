@@ -1,3 +1,5 @@
 theme: jekyll-theme-minimal
 title: WatchTower homepage
 description: DyanmoDB visualization tool. 
+exclude:
+  - node_modules
