@@ -2,3 +2,7 @@
 github:
   repository: WatchTower-Open-Source/WatchTower-Landing-Page # Replace with your repository name
   token: ${{ secrets.GITHUB_TOKEN }}
+
+ exclude:
+  - node_modules
+ 
