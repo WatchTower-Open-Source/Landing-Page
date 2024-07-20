@@ -1,9 +1,8 @@
 title: WatchTower
 description: >- # this means to ignore newlines until "baseurl:"
-  DyanmoDb visualization tool 
+  DyanmoDb visualization tool
 baseurl: '' # the subpath of your site, e.g. /blog
 url: 'http://watch-tower.co' # the base hostname & protocol for your site
-
 
 markdown: kramdown
 theme: minima
@@ -14,6 +13,7 @@ plugins:
 
 exclude:
   - node_modules
+  - vendor/bundle
   - Gemfile
   - Gemfile.lock
 
