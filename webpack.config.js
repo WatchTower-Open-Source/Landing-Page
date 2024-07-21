@@ -6,7 +6,7 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'bundle.js',
-    publicPath: '/Landing-Page/',
+    publicPath: 'WatchTower-Open-Source/Landing-Page',
   },
   resolve: {
     extensions: ['.tsx', '.ts', '.js'],
@@ -30,7 +30,7 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: '.public/index.html',
+      template: './public/index.html',
     }),
   ],
   devServer: {
