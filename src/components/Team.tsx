@@ -11,6 +11,7 @@ import Lauren from '../assets/Lauren.png';
 import Toast from '../assets/Toast.png';
 import Miso from '../assets/Miso.png';
 import Pug from '../assets/Pug.png';
+import Yiyi from '../assets/Yiyi.png';
 
 const whiteLogos = [Erik, James, Lauren, Mike, Piero];
 const darkLogos = [Erik, James, Lauren, Mike, Piero];
@@ -30,9 +31,9 @@ const linkedLn = [
   'https://www.linkedin.com/in/piero-espejo-6813a9b0/',
 ];
 
-const whiteSecondaryImages = [Toast, Miso, Pug];
-const darkSecondaryImages = [Toast, Miso, Pug];
-const secondNames = ['Toast', 'Miso', 'Kreacher'];
+const whiteSecondaryImages = [Yiyi, Toast, Miso, Pug];
+const darkSecondaryImages = [Yiyi, Toast, Miso, Pug];
+const secondNames = ['Yiyi', 'Toast', 'Miso', 'Kreature'];
 
 const logoStyle: React.CSSProperties = {
   width: '100px',
