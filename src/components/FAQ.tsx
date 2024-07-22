@@ -3,6 +3,7 @@ import Accordion from '@mui/material/Accordion';
 import AccordionDetails from '@mui/material/AccordionDetails';
 import AccordionSummary from '@mui/material/AccordionSummary';
 import Box from '@mui/material/Box';
+import Link from '@mui/material/Link';
 import Container from '@mui/material/Container';
 import Typography from '@mui/material/Typography';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
@@ -37,7 +38,7 @@ export default function FAQ() {
           textAlign: { sm: 'left', md: 'center' },
         }}
       >
-        Frequently asked questions
+        Frequently Asked Questions
       </Typography>
       <Box sx={{ width: '100%' }}>
         <Accordion
@@ -59,9 +60,9 @@ export default function FAQ() {
               gutterBottom
               sx={{ maxWidth: { sm: '100%', md: '70%' } }}
             >
-              WatchTower is a visualization tool that displays a database's
-              provisional capacities to help developers better understand their
-              usage.
+              WatchTower is an advanced visualization tool designed to display
+              provisional capacities of your AWS DynamoDB database, enabling
+              developers to gain deeper insights into their usage patterns.
             </Typography>
           </AccordionDetails>
         </Accordion>
@@ -75,7 +76,7 @@ export default function FAQ() {
             id='panel2d-header'
           >
             <Typography component='h3' variant='subtitle2'>
-              What Cloud providers does WatchTower support?
+              Which cloud providers does WatchTower support?
             </Typography>
           </AccordionSummary>
           <AccordionDetails>
@@ -84,8 +85,9 @@ export default function FAQ() {
               gutterBottom
               sx={{ maxWidth: { sm: '100%', md: '70%' } }}
             >
-              Currently, we can only service AWS DyanmoDB users. Please check
-              back for future updates.
+              Currently, WatchTower exclusively supports AWS DynamoDB. Please
+              stay tuned for updates regarding support for additional cloud
+              providers.
             </Typography>
           </AccordionDetails>
         </Accordion>
@@ -99,7 +101,7 @@ export default function FAQ() {
             id='panel3d-header'
           >
             <Typography component='h3' variant='subtitle2'>
-              What makes your product stand out from others in the market?
+              What sets WatchTower apart from other products in the market?
             </Typography>
           </AccordionSummary>
           <AccordionDetails>
@@ -108,10 +110,10 @@ export default function FAQ() {
               gutterBottom
               sx={{ maxWidth: { sm: '100%', md: '70%' } }}
             >
-              Our product distinguishes itself through its adaptability,
-              durability, and innovative features. We prioritize user
-              satisfaction and continually strive to exceed expectations in
-              every aspect.
+              WatchTower stands out due to its adaptive performance, robust
+              infrastructure, and innovative AI-driven features. Our commitment
+              to user satisfaction and comprehensive support ensures an
+              exceptional experience.
             </Typography>
           </AccordionDetails>
         </Accordion>
@@ -134,7 +136,14 @@ export default function FAQ() {
               gutterBottom
               sx={{ maxWidth: { sm: '100%', md: '70%' } }}
             >
-              Please visit our GutHub homepage for more information.
+              To get started, please visit our{' '}
+              <Link
+                href='https://github.com/oslabs-beta/watchtower'
+                color='primary'
+              >
+                GitHub
+              </Link>{' '}
+              page for comprehensive information and setup instructions.
             </Typography>
           </AccordionDetails>
         </Accordion>
