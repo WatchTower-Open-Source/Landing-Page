@@ -16,39 +16,39 @@ import ThumbUpAltRoundedIcon from '@mui/icons-material/ThumbUpAltRounded';
 const items = [
   {
     icon: <SettingsSuggestRoundedIcon />,
-    title: 'Adaptable performance',
+    title: 'Scalable Performance',
     description:
-      'Our product effortlessly adjusts to your needs, boosting efficiency and simplifying your tasks.',
+      'Our tool seamlessly adapts to your AWS DynamoDB capacity needs, optimizing performance and enhancing efficiency.',
   },
   {
     icon: <ConstructionRoundedIcon />,
-    title: 'Built to last',
+    title: 'Robust Infrastructure',
     description:
-      'Experience unmatched durability that goes above and beyond with lasting investment.',
+      'Built with a strong foundation, our tool ensures reliability and long-term durability for your database management.',
   },
   {
     icon: <ThumbUpAltRoundedIcon />,
-    title: 'Great user experience',
+    title: 'User-Friendly Interface',
     description:
-      'Integrate our product into your routine with an intuitive and easy-to-use interface.',
+      'Experience an intuitive and easy-to-use interface designed to integrate smoothly into your workflow.',
   },
   {
     icon: <AutoFixHighRoundedIcon />,
-    title: 'Innovative functionality',
+    title: 'Advanced AI Features',
     description:
-      'Stay ahead with features that set new standards, addressing your evolving needs better than the rest.',
+      'Leverage Amazon Bedrock for predictive analytics, providing insights and trends for your DynamoDB data.',
   },
   {
     icon: <SupportAgentRoundedIcon />,
-    title: 'Reliable support',
+    title: 'Dedicated Support',
     description:
-      'Count on our responsive customer support, offering assistance that goes beyond the purchase.',
+      'Rely on our responsive customer support team, dedicated to assisting you beyond the initial setup.',
   },
   {
     icon: <QueryStatsRoundedIcon />,
-    title: 'Precision in every detail',
+    title: 'Detailed Analytics',
     description:
-      'Enjoy a meticulously crafted product where small touches make a significant impact on your overall experience.',
+      'Gain access to detailed analytics and visualizations, helping you make informed decisions about your database capacities.',
   },
 ];
 
