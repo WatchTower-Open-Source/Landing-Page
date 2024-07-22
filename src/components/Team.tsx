@@ -2,7 +2,6 @@ import * as React from 'react';
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 import Grid from '@mui/material/Grid';
-import Link from '@mui/material/Link';
 import { useTheme } from '@mui/system';
 import Erik from '../assets/Erik.png';
 import Mike from '../assets/Mike.png';
@@ -33,7 +32,7 @@ const linkedLn = [
 
 const whiteSecondaryImages = [Toast, Miso, Pug];
 const darkSecondaryImages = [Toast, Miso, Pug];
-const secondNames = ['Toast', 'Miso', 'Kreature'];
+const secondNames = ['Toast', 'Miso', 'Kreacher'];
 
 const logoStyle: React.CSSProperties = {
   width: '100px',
@@ -45,6 +44,8 @@ const logoStyle: React.CSSProperties = {
 export default function Team() {
   const theme = useTheme();
   const logos = theme.palette.mode === 'light' ? darkLogos : whiteLogos;
+  const petLogos =
+    theme.palette.mode === 'light' ? darkSecondaryImages : whiteSecondaryImages;
 
   return (
     <Box id='team' sx={{ py: 4 }}>
@@ -65,15 +66,35 @@ export default function Team() {
               alt={`Team member ${names[index]}`}
               style={logoStyle}
             />
-            <Link href={linkedLn[index]} color='primary'>
-              <Typography
-                variant='subtitle1'
-                color='text.primary'
-                sx={{ mt: 1 }}
-              >
-                {names[index]}
-              </Typography>
-            </Link>
+            <Typography variant='subtitle1' color='text.primary' sx={{ mt: 1 }}>
+              {names[index]}
+            </Typography>
+          </Grid>
+        ))}
+      </Grid>
+
+      <Typography
+        component='p'
+        variant='h5'
+        align='center'
+        color='text.secondary'
+        fontWeight='bold'
+        sx={{ mt: 6 }}
+      >
+        Special Thanks To
+      </Typography>
+
+      <Grid container justifyContent='center' sx={{ mt: 3, opacity: 1.0 }}>
+        {petLogos.map((petLogo, index) => (
+          <Grid item key={index} sx={{ textAlign: 'center', mx: 2 }}>
+            <img
+              src={petLogo}
+              alt={`Pet ${secondNames[index]}`}
+              style={logoStyle}
+            />
+            <Typography variant='subtitle1' color='text.primary' sx={{ mt: 1 }}>
+              {secondNames[index]}
+            </Typography>
           </Grid>
         ))}
       </Grid>
