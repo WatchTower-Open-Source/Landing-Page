@@ -5,12 +5,14 @@ import Container from '@mui/material/Container';
 import Grid from '@mui/material/Grid';
 import Stack from '@mui/material/Stack';
 import Typography from '@mui/material/Typography';
+import { useTheme } from '@mui/material/styles';
 import AutoFixHighRoundedIcon from '@mui/icons-material/AutoFixHighRounded';
 import ConstructionRoundedIcon from '@mui/icons-material/ConstructionRounded';
 import QueryStatsRoundedIcon from '@mui/icons-material/QueryStatsRounded';
 import SettingsSuggestRoundedIcon from '@mui/icons-material/SettingsSuggestRounded';
 import SupportAgentRoundedIcon from '@mui/icons-material/SupportAgentRounded';
 import ThumbUpAltRoundedIcon from '@mui/icons-material/ThumbUpAltRounded';
+
 const items = [
   {
     icon: <SettingsSuggestRoundedIcon />,
@@ -51,14 +53,16 @@ const items = [
 ];
 
 export default function Highlights() {
+  const theme = useTheme();
+
   return (
     <Box
       id='highlights'
       sx={{
         pt: { xs: 4, sm: 12 },
         pb: { xs: 8, sm: 16 },
-        color: 'white',
-        bgcolor: '#06090a',
+        color: theme.palette.text.primary,
+        bgcolor: theme.palette.background.default,
       }}
     >
       <Container
@@ -79,7 +83,10 @@ export default function Highlights() {
           <Typography component='h2' variant='h4'>
             Highlights
           </Typography>
-          <Typography variant='body1' sx={{ color: 'grey.400' }}>
+          <Typography
+            variant='body1'
+            sx={{ color: theme.palette.text.secondary }}
+          >
             Explore why our product stands out: adaptability, durability,
             user-friendly design, and innovation. Enjoy reliable customer
             support and precision in every detail.
@@ -98,9 +105,9 @@ export default function Highlights() {
                   p: 3,
                   height: '100%',
                   border: '1px solid',
-                  borderColor: 'grey.800',
+                  borderColor: theme.palette.divider,
                   background: 'transparent',
-                  backgroundColor: 'grey.900',
+                  backgroundColor: theme.palette.background.paper,
                 }}
               >
                 <Box sx={{ opacity: '50%' }}>{item.icon}</Box>
@@ -108,7 +115,10 @@ export default function Highlights() {
                   <Typography fontWeight='medium' gutterBottom>
                     {item.title}
                   </Typography>
-                  <Typography variant='body2' sx={{ color: 'grey.400' }}>
+                  <Typography
+                    variant='body2'
+                    sx={{ color: theme.palette.text.secondary }}
+                  >
                     {item.description}
                   </Typography>
                 </div>
