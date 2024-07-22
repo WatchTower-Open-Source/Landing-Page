@@ -21,7 +21,7 @@ const items = [
     icon: <ViewQuiltRoundedIcon />,
     title: 'Easy to Use Dashboard',
     description:
-      'Quickly search and sort through provisional data related to your AWS DynamoDB account.',
+      'Effortlessly search and organize provisional data pertaining to your AWS DynamoDB account.',
     imageLight: `url(${dynamoDB})`,
     imageDark: `url(${dynamoDB})`,
   },
@@ -29,7 +29,7 @@ const items = [
     icon: <AnalyticsIcon />,
     title: 'Save Past Analysis',
     description:
-      'This item could provide information about the mobile app version of the product.',
+      'Easily access previously conducted analyses with a single click.',
     imageLight: `url(${charts})`,
     imageDark: `url(${charts})`,
   },
@@ -37,7 +37,7 @@ const items = [
     icon: <AutoGraphIcon />,
     title: 'AI Integration',
     description:
-      'We utilize Amazon Bedrock to make predictive trends in relation to your DynamoDB account.',
+      'Leverage Amazon Bedrock for predictive trend analysis of your DynamoDB data.',
     imageLight: `url(${bedrockLogo})`,
     imageDark: `url(${bedrockLogo})`,
   },
