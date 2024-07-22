@@ -7,9 +7,10 @@ import logo from '../assets/logo.png';
 import bedrockLogo from '../assets/bedrock.png';
 import gitHub from '../assets/gitHublogo.png';
 import awsLogo from '../assets/awsLogo.png';
-const whiteLogos = [logo, bedrockLogo, gitHub, awsLogo];
+import darkModeGithub from '../assets/darkmode-github.png';
 
-const darkLogos = [logo, bedrockLogo, gitHub, awsLogo];
+const whiteLogos = [logo, bedrockLogo, gitHub, awsLogo];
+const darkLogos = [logo, bedrockLogo, darkModeGithub, awsLogo];
 
 const logoStyle: React.CSSProperties = {
   width: '100px',
@@ -20,7 +21,7 @@ const logoStyle: React.CSSProperties = {
 
 export default function LogoCollection() {
   const theme = useTheme();
-  const logos = theme.palette.mode === 'light' ? darkLogos : whiteLogos;
+  const logos = theme.palette.mode === 'dark' ? darkLogos : whiteLogos;
 
   return (
     <Box id='logoCollection' sx={{ py: 4 }}>
