@@ -4,13 +4,13 @@ import Typography from '@mui/material/Typography';
 import Grid from '@mui/material/Grid';
 import { useTheme } from '@mui/system';
 import Lauren from '../assets/Lauren.png';
-import Toast from '../assets/Toast.png';
+import Erik from '../assets/Erik.png';
 import Miso from '../assets/Miso.png';
 import Pug from '../assets/Pug.png';
 
-const whiteLogos = [Lauren, Toast, Miso, Pug];
+const whiteLogos = [Lauren, Erik, Miso, Pug];
 
-const darkLogos = [Lauren, Toast, Miso, Pug];
+const darkLogos = [Lauren, Erik, Miso, Pug];
 
 const logoStyle: React.CSSProperties = {
   width: '100px',
