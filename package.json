@@ -11,7 +11,7 @@
   "author": "",
   "license": "ISC",
   "description": "",
-  "homepage": "https://WatchTower-Open-Source.github.io/Landing-Page", 
+  "homepage": "https://watch-tower.co",
   "dependencies": {
     "@date-io/date-fns": "^2.14.0",
     "@emotion/react": "^11.11.4",
