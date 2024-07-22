@@ -33,7 +33,7 @@ export default function LogoCollection() {
       >
         Made possible by the following technologies:
       </Typography>
-      <Grid container justifyContent='center' sx={{ mt: 0.5, opacity: 0.6 }}>
+      <Grid container justifyContent='center' sx={{ mt: 4, opacity: 1.0 }}>
         {logos.map((logo, index) => (
           <Grid item key={index}>
             <img
