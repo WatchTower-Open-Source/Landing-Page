@@ -129,10 +129,16 @@ export default function Footer() {
           <Link color='text.secondary' href='#'>
             About us
           </Link>
-          <Link color='text.secondary' href='#'>
+          <Link
+            color='text.secondary'
+            href='http://linkedin.com/company/watchtower-db'
+          >
             Careers
           </Link>
-          <Link color='text.secondary' href='#'>
+          <Link
+            color='text.secondary'
+            href='https://medium.com/@piero914/watchtower-making-your-dynamodb-management-enjoyable-02b230e11af4'
+          >
             Press
           </Link>
         </Box>
@@ -190,7 +196,7 @@ export default function Footer() {
         >
           <IconButton
             color='inherit'
-            href='#'
+            href='https://github.com/oslabs-beta/watchtower'
             aria-label='GitHub'
             sx={{ alignSelf: 'center' }}
           >
@@ -198,7 +204,7 @@ export default function Footer() {
           </IconButton>
           <IconButton
             color='inherit'
-            href='#'
+            href='https://x.com/WatchTower_DB'
             aria-label='X'
             sx={{ alignSelf: 'center' }}
           >
@@ -206,7 +212,7 @@ export default function Footer() {
           </IconButton>
           <IconButton
             color='inherit'
-            href='#'
+            href='http://linkedin.com/company/watchtower-db'
             aria-label='LinkedIn'
             sx={{ alignSelf: 'center' }}
           >

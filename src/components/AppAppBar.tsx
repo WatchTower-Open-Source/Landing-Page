@@ -199,7 +199,7 @@ function AppAppBar({ mode, toggleColorMode }: AppAppBarProps) {
                       color='primary'
                       variant='contained'
                       component='a'
-                      href='/material-ui/getting-started/templates/sign-up/'
+                      href='https://github.com/oslabs-beta/watchtower'
                       target='_blank'
                       sx={{ width: '100%' }}
                     >
@@ -211,7 +211,7 @@ function AppAppBar({ mode, toggleColorMode }: AppAppBarProps) {
                       color='primary'
                       variant='outlined'
                       component='a'
-                      href='/material-ui/getting-started/templates/sign-in/'
+                      href='https://github.com/oslabs-beta/watchtower'
                       target='_blank'
                       sx={{ width: '100%' }}
                     >
