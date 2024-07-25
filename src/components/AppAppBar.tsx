@@ -140,7 +140,7 @@ function AppAppBar({ mode, toggleColorMode }: AppAppBarProps) {
                 variant='contained'
                 size='small'
                 component='a'
-                href='/material-ui/getting-started/templates/sign-up/'
+                href='https://github.com/oslabs-beta/watchtower'
                 target='_blank'
               >
                 Sign up
