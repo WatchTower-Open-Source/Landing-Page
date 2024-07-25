@@ -5,12 +5,11 @@ import Grid from '@mui/material/Grid';
 import { useTheme } from '@mui/system';
 import logo from '../assets/logo.png';
 import bedrockLogo from '../assets/bedrock.png';
-import gitHub from '../assets/gitHublogo.png';
+import gitHub from '../assets/github-logo.png';
 import awsLogo from '../assets/awsLogo.png';
-import darkModeGithub from '../assets/darkmode-github.png';
 
 const whiteLogos = [logo, bedrockLogo, gitHub, awsLogo];
-const darkLogos = [logo, bedrockLogo, darkModeGithub, awsLogo];
+const darkLogos = [logo, bedrockLogo, gitHub, awsLogo];
 
 const logoStyle: React.CSSProperties = {
   width: '100px',
